@@ -1,3 +1,9 @@
 var friends = new Object();
   friends.bill = new Object();
+    friends.bill.firstName = "Bill",
+    friends.bill.lastName = "Gates",
+    friends.bill.number = "(456) 321-7199"
   friends.steve = new Object();
+    friends.steve.firstName = "Steve",
+    friends.steve.lastName = "Jobs",
+    friends.steve.number = "(555) 555-5555"
