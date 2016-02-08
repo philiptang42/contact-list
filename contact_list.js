@@ -9,5 +9,13 @@ var friends = {
     firstName: "Steve",
     lastName: "Jobs",
     number: "(555) 206-2066",
-    address: ['One Apple Street', 'Grave', 'RIP', '66666']   }
+    address: ['One Apple Street', 'Grave', 'RIP', '66666']
+  }
 };
+
+var list = function(friends) {
+  for (var key in friends) {
+    friends[key];
+    console.log(key)
+  }
+}
