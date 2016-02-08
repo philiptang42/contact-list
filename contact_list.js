@@ -9,8 +9,7 @@ var friends = {
     firstName: "Steve",
     lastName: "Jobs",
     number: "(555) 206-2066",
-    address: ['One Apple Street', 'Grave', 'RIP', '66666']
-  }
+    address: ['One Apple Street', 'Grave', 'RIP', '66666']   }
 };
 
 var list = function(friends) {
@@ -18,4 +17,13 @@ var list = function(friends) {
     friends[key];
     console.log(key)
   }
-}
+};
+
+var search = function(name) {
+  for (var key in friends) {
+    if (friends[key].firstName === name) {
+      console.log(friends[key]);
+      return friends[key];
+    }
+  }
+};
