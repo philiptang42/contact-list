@@ -27,3 +27,5 @@ var search = function(name) {
     }
   }
 };
+
+search('Steve')
