@@ -29,3 +29,4 @@ var search = function(name) {
 };
 
 search('Steve')
+search('Bill')
